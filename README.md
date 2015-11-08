@@ -81,3 +81,7 @@ $ ->As c, but repeats only the next single symbol
 
 '<any one character> -> Write the unicode id of that character to the first register
 ```
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
