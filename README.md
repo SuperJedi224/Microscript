@@ -1,6 +1,10 @@
 # Microscript
 The Microscript golfing language
 
+Originally published May 28, 2015
+
+Relocated from Pastebin November 11, 2015
+
 Microscript was my first golfing language design. The language is stack based, operating on two stacks and two registers, with 64-bit integers as the sole data type.
 
 **Instructions:**
