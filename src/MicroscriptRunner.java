@@ -33,7 +33,7 @@ public class MicroscriptRunner{
 			if(code.charAt(i)=='C')for(long x:stack.get(stackId))stack.get((stackId+1)%2).push(x);
 			if(code.charAt(i)=='t')x=stack.get(stackId).peek();
 			if(code.charAt(i)=='+')x+=stack.get(stackId).pop();
-			if(code.charAt(i)=='-')x+=stack.get(stackId).pop();
+			if(code.charAt(i)=='-')x-=stack.get(stackId).pop();
 			if(code.charAt(i)=='*')x*=stack.get(stackId).pop();
 			if(code.charAt(i)=='%')x%=stack.get(stackId).pop();
 			if(code.charAt(i)=='/')x/=stack.get(stackId).pop();
